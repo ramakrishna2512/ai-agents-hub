@@ -139,7 +139,7 @@ Prioritize risks that could cause production failures, security breaches, or poo
     return response.json().get("response", "Error: Unexpected response format (missing 'response' key).")
 
 
-# ---------------- STREAMLIT UI ---------------- #
+
 
 st.set_page_config(page_title="AI QA Auditor Agent", layout="wide")
 
